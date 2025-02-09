@@ -1,30 +1,48 @@
 <svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
-  <!-- Define the frames of the animation with different brackets -->
+  <style>
+    /* GitHub's default color schemes */
+    @media (prefers-color-scheme: dark) {
+      text {
+        fill: #c9d1d9; /* GitHub dark mode text color */
+      }
+    }
+    @media (prefers-color-scheme: light) {
+      text {
+        fill: #24292f; /* GitHub light mode text color */
+      }
+    }
+
+    /* Fallback if neither scheme is detected */
+    text {
+      font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 16px;
+    }
+  </style>
 
   <!-- Frame 1 -->
-  <text id="frame1" x="20" y="60" font-family="monospace" font-size="18" fill="white">&#160;(&#160;&#160;&#160;&#160;)</text>
-  <text id="frame1_2" x="20" y="80" font-family="monospace" font-size="18" fill="white">&#160;&#160;)&#160;&#160;(</text>
-  <text x="20" y="100" font-family="monospace" font-size="18">c[]&#160;&#160;[]ↄ</text>
+  <text id="frame1" x="20" y="60">&#160;(&#160;&#160;&#160;&#160;)</text>
+  <text id="frame1_2" x="20" y="80">&#160;&#160;)&#160;&#160;(</text>
+  <text x="20" y="100">c[]&#160;&#160;[]ↄ</text>
 
   <!-- Frame 2 -->
-  <text id="frame2" x="20" y="60" font-family="monospace" font-size="18" fill="white">&#160;(&#160;&#160;&#160;&#160;/</text>
-  <text id="frame2_2" x="20" y="80" font-family="monospace" font-size="18" fill="white">&#160;(&#160;&#160;&#160;(</text>
+  <text id="frame2" x="20" y="60">&#160;(&#160;&#160;&#160;&#160;/</text>
+  <text id="frame2_2" x="20" y="80">&#160;(&#160;&#160;&#160;(</text>
 
   <!-- Frame 3 -->
-  <text id="frame3" x="20" y="60" font-family="monospace" font-size="18" fill="white">&#160;&#160;/&#160;&#160;&#160;/</text>
-  <text id="frame3_2" x="20" y="80" font-family="monospace" font-size="18" fill="white">&#160;(&#160;&#160;&#160;&#160;(</text>
+  <text id="frame3" x="20" y="60">&#160;&#160;/&#160;&#160;&#160;/</text>
+  <text id="frame3_2" x="20" y="80">&#160;(&#160;&#160;&#160;&#160;(</text>
 
   <!-- Frame 4 -->
-  <text id="frame4" x="20" y="60" font-family="monospace" font-size="18" fill="white">&#160;&#160;)&#160;&#160;\</text>
-  <text id="frame4_2" x="20" y="80" font-family="monospace" font-size="18" fill="white">&#160;(&#160;&#160;&#160;&#160;)</text>
+  <text id="frame4" x="20" y="60">&#160;&#160;)&#160;&#160;\</text>
+  <text id="frame4_2" x="20" y="80">&#160;(&#160;&#160;&#160;&#160;)</text>
   
   <!-- Frame 5 -->
-  <text id="frame5" x="20" y="60" font-family="monospace" font-size="18" fill="white">&#160;&#160;)&#160;&#160;(</text>
-  <text id="frame5_2" x="20" y="80" font-family="monospace" font-size="18" fill="white">&#160;&#160;)&#160;&#160;&#160;)</text>
+  <text id="frame5" x="20" y="60">&#160;&#160;)&#160;&#160;(</text>
+  <text id="frame5_2" x="20" y="80">&#160;&#160;)&#160;&#160;&#160;)</text>
   
   <!-- Frame 6 -->
-  <text id="frame6" x="20" y="60" font-family="monospace" font-size="18" fill="white">&#160;\&#160;&#160;&#160;(</text>
-  <text id="frame6_2" x="20" y="80" font-family="monospace" font-size="18" fill="white">&#160;&#160;)&#160;&#160;&#160;(</text>
+  <text id="frame6" x="20" y="60">&#160;\&#160;&#160;&#160;(</text>
+  <text id="frame6_2" x="20" y="80">&#160;&#160;)&#160;&#160;&#160;(</text>
   
   <!-- Animate visibility by changing opacity -->
   <animate
