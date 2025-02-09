@@ -2,29 +2,29 @@
   <!-- Define the frames of the animation with different brackets -->
 
   <!-- Frame 1 -->
-  <text id="frame1" x="20" y="60" font-family="monospace" font-size="18">&#160;(&#160;&#160;&#160;&#160;)</text>
-  <text id="frame1_2" x="20" y="80" font-family="monospace" font-size="18">&#160;&#160;)&#160;&#160;(</text>
+  <text id="frame1" x="20" y="60" font-family="monospace" font-size="18" fill="white">&#160;(&#160;&#160;&#160;&#160;)</text>
+  <text id="frame1_2" x="20" y="80" font-family="monospace" font-size="18" fill="white">&#160;&#160;)&#160;&#160;(</text>
   <text x="20" y="100" font-family="monospace" font-size="18">c[]&#160;&#160;[]ↄ</text>
 
   <!-- Frame 2 -->
-  <text id="frame2" x="20" y="60" font-family="monospace" font-size="18">&#160;(&#160;&#160;&#160;&#160;/</text>
-  <text id="frame2_2" x="20" y="80" font-family="monospace" font-size="18">&#160;(&#160;&#160;&#160;(</text>
+  <text id="frame2" x="20" y="60" font-family="monospace" font-size="18" fill="white">&#160;(&#160;&#160;&#160;&#160;/</text>
+  <text id="frame2_2" x="20" y="80" font-family="monospace" font-size="18" fill="white">&#160;(&#160;&#160;&#160;(</text>
 
   <!-- Frame 3 -->
-  <text id="frame3" x="20" y="60" font-family="monospace" font-size="18">&#160;&#160;/&#160;&#160;&#160;/</text>
-  <text id="frame3_2" x="20" y="80" font-family="monospace" font-size="18">&#160;(&#160;&#160;&#160;&#160;(</text>
+  <text id="frame3" x="20" y="60" font-family="monospace" font-size="18" fill="white">&#160;&#160;/&#160;&#160;&#160;/</text>
+  <text id="frame3_2" x="20" y="80" font-family="monospace" font-size="18" fill="white">&#160;(&#160;&#160;&#160;&#160;(</text>
 
   <!-- Frame 4 -->
-  <text id="frame4" x="20" y="60" font-family="monospace" font-size="18">&#160;&#160;)&#160;&#160;\</text>
-  <text id="frame4_2" x="20" y="80" font-family="monospace" font-size="18">&#160;(&#160;&#160;&#160;&#160;)</text>
+  <text id="frame4" x="20" y="60" font-family="monospace" font-size="18" fill="white">&#160;&#160;)&#160;&#160;\</text>
+  <text id="frame4_2" x="20" y="80" font-family="monospace" font-size="18" fill="white">&#160;(&#160;&#160;&#160;&#160;)</text>
   
   <!-- Frame 5 -->
-  <text id="frame5" x="20" y="60" font-family="monospace" font-size="18">&#160;&#160;)&#160;&#160;(</text>
-  <text id="frame5_2" x="20" y="80" font-family="monospace" font-size="18">&#160;&#160;)&#160;&#160;&#160;)</text>
+  <text id="frame5" x="20" y="60" font-family="monospace" font-size="18" fill="white">&#160;&#160;)&#160;&#160;(</text>
+  <text id="frame5_2" x="20" y="80" font-family="monospace" font-size="18" fill="white">&#160;&#160;)&#160;&#160;&#160;)</text>
   
   <!-- Frame 6 -->
-  <text id="frame6" x="20" y="60" font-family="monospace" font-size="18">&#160;\&#160;&#160;&#160;(</text>
-  <text id="frame6_2" x="20" y="80" font-family="monospace" font-size="18">&#160;&#160;)&#160;&#160;&#160;(</text>
+  <text id="frame6" x="20" y="60" font-family="monospace" font-size="18" fill="white">&#160;\&#160;&#160;&#160;(</text>
+  <text id="frame6_2" x="20" y="80" font-family="monospace" font-size="18" fill="white">&#160;&#160;)&#160;&#160;&#160;(</text>
   
   <!-- Animate visibility by changing opacity -->
   <animate
