@@ -1,1 +1,1 @@
-![tea](tea.svg)
+![tea](https://raw.githubusercontent.com/Pydes-boop/Pydes-boop/main/tea.svg)
